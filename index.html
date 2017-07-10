@@ -5,73 +5,15 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>A fantastical adventure</title>
+    <title>Word Play</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Fill in the blanks to write your story!</h1>
-      <div>
-        <form id="formOne">
-          <div class="form-group">
-            <label for="person1">A male name</label>
-            <input id="person1" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="person2">A female name</label>
-            <input id="person2" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="animal">An animal</label>
-            <input id="animal" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="exclamation">An exclamation</label>
-            <input id="exclamation" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="noun">A noun</label>
-            <input id="noun" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="adjective">An unpleasant adjective</label>
-            <input id="adjective" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="fear_exclamation">An exclamation of fear</label>
-            <input id="fear_exclamation" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="weapon">A sharp weapon</label>
-            <input id="weapon" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="other_noun">Another noun</label>
-            <input id="other_noun" class="form-control" type="text">
-          </div>
-
-          <button type="submit" class="btn">Show me the story!</button>
-        </form>
-      </div>
-
-      <div id="story">
-        <h1>How unicorns got their horns</h1>
-        <p>
-          It was a dark and stormy night. <span class="person1"></span>, a well-known dragon, was hard at work cleaning his smelting gear.
-        </p>
-        <p>
-          <span class="person2"></span> the horse was taking a walk, but when the black clouds and thunder rolled in, she fled to the protective shelter of the woods at the base of a mountain. In the distance a <span class="animal"></span> called to all the forest animals: "Here is a cave where you may keep dry!". <span class="exclamation"></span>, shouted <span class="person2"></span>. <span class="person2"></span> ran to the cave, where she nestled down to a warm and safe night's sleep. But, lo! Shortly before dawn, <span class="person2"></span> awoke to the sounds of a repetitive <span class="adjective"></span> noise. Opening her eyes, she perceived a bright pin point of light at the far end of the cave, opposite the entrance. Arising, she began to walk towards the pin point.
-        </p>
-        <p>
-          But <span class="animal"></span> shouted, "Beware! You are headed to danger!". But <span class="person2"></span> was a curious colt and crept onward, toward the light and noise.
-        </p>
-        <p>
-          At the end of the tunnel, she found a huge bright cavern full of treasure, and <span class="person1"></span> in the middle of it, heaving weapons, one after another, at the <span class="other_noun"></span> above the tunnel.  He had finished his chores early and decided to treat himself with some target practice.  At the sight of a catapult hurling a <span class="noun"></span> towards her, she squealed <span class="fear_exclamation"></span>.  This so startled <span class="person1"></span> that he threw his next weapon, a magical <span class="weapon"></span>, directly at her face!
-        </p>
-        <p>
-          Lucky for our colt friend, when thrown at a person, this magical <span class="weapon"></span> does not hurt them, but becomes a part of them! A bright light filled the cavern and when it faded, <span class="person2"></span> discovered that she had a beautiful silver horn attached to the middle of her forehead.
-        </p>
-        <p> And that is how the first unicorn got her horn.</p>
-      </div>
+    <div class="container-fluid">
+      <form class="input">
+        <label for="userInput">Please type a sentence here.</label>
+        <input id="userInput" type="text" class="form-control">
+        <button type="submit" name="userInput">Submit</button>
+      </form>
     </div>
   </body>
 </html>
